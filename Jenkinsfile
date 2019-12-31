@@ -10,7 +10,7 @@ pipeline {
         stage('Test') {
             steps {
                 // Run the tests
-                sh 'python test_calculator.py'
+                bat 'python test_calculator.py'
             }
         }
     }
